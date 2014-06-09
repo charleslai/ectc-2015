@@ -48,3 +48,11 @@ input[type="submit"] {
     padding: .4rem;
     margin-top: 10px;
 }
+
+.description {
+    color: #DDDDDD;
+}
+
+strong {
+    color: #FFFFFF;
+}
