@@ -1,0 +1,39 @@
+input[type="email"] {
+    min-height: 50px;
+    font-size: 24px;
+    margin: 0px;
+}
+
+input[type="submit"]:hover {
+    background: #7A7B92;
+    color: #ffffff;
+}
+
+input[type="submit"] {
+    margin: 0px;
+    min-height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: 250ms linear all;
+    -moz-transition: 250ms linear all;
+    transition: 250ms linear all;
+    background: #63A7F1;
+    color: #ffffff;
+}
+
+.alert-box.success {
+    background-color: #CECECE;
+    border-color: #A0A0A0;
+    color: black;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    padding: .4rem;
+    margin-top: 10px;
+}
