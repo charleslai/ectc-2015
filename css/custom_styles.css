@@ -4,6 +4,8 @@ input[type="email"] {
     margin: 0px;
     background: rgba(200, 200, 200, 0.25);
     color: white;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 input[type="email"]:focus {
