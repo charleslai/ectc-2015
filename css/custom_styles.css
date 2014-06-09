@@ -57,13 +57,21 @@ strong {
     color: #FFFFFF;
 }
 
-.page-wrapper {
-    position: relative;
-    padding: 0px;
-    top: 50%;
+@media only screen and (min-width: 40.063em) {
+    .page-wrapper {
+        position: relative;
+        padding: 0px;
+        top: 50%;
 
-    -ms-transform: translate(0%, -50%); /* IE 9 */
-    -webkit-transform: translate(0%, -50%);
-    transform: translate(0%, -50%);
+        -ms-transform: translate(0%, -50%); /* IE 9 */
+        -webkit-transform: translate(0%, -50%);
+        transform: translate(0%, -50%);
+    }
+}
+
+@media only screen and (max-width: 40.063em) {
+    .page-wrapper {
+        padding-top: 10%;
+    }
 }
 
