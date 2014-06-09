@@ -2,6 +2,14 @@ input[type="email"] {
     min-height: 50px;
     font-size: 24px;
     margin: 0px;
+    background: rgba(200, 200, 200, 0.25);
+    color: white;
+}
+
+input[type="email"]:focus {
+    font-size: 24px;
+    background: rgba(200, 200, 200, 0.25);
+    color: white;
 }
 
 input[type="submit"]:hover {
@@ -15,7 +23,7 @@ input[type="submit"] {
     font-size: 18px;
     font-weight: 600;
     width: 100%;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     padding: 10px;
     text-decoration: none;
     border: none;
@@ -23,7 +31,8 @@ input[type="submit"] {
     -webkit-transition: 250ms linear all;
     -moz-transition: 250ms linear all;
     transition: 250ms linear all;
-    background: #63A7F1;
+    background: rgba(99, 167, 241, 0.9);
+    /*background: #63A7F1;*/
     color: #ffffff;
 }
 
