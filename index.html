@@ -62,15 +62,17 @@
             dataType: "jsonp",
             statusCode: {
               0: function (){
+                email = $('#femail').val();
                 $('#femail').val("");
                 //Success message
-                $('#email_form').append('<div class="row"><div data-alert class="small-11 small-centered columns alert-box success radius">You have successfully subscribed to receive ECTC 2015 updates!<a href="#" class="close">&times;</a></div></div>');
+                $('#email_form').append('<div class="row"><div data-alert class="small-11 small-centered columns alert-box success radius">You have successfully subscribed <a href="#">' + email + '</a> to receive ECTC 2015 updates! You will receive a confirmation email shortly. <a href="#" class="close">&times;</a></div></div>');
                 $(document).foundation();
               },
               200: function (){
+                email = $('#femail').val();
                 $('#femail').val("");
                 //Success Message
-                $('#email_form').append('<div class="row"><div data-alert class="small-11 small-centered columns alert-box success radius">You have successfully subscribed to receive ECTC 2015 updates!<a href="#" class="close">&times;</a></div></div>');
+                $('#email_form').append('<div class="row"><div data-alert class="small-11 small-centered columns alert-box success radius">You have successfully subscribed <a href="#">' + email + '</a> to receive ECTC 2015 updates! You will receive a confirmation email shortly. <a href="#" class="close">&times;</a></div></div>');
                 $(document).foundation();
               }
             }
